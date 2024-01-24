@@ -1,0 +1,165 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+  font-size: 15px;
+  line-height: 20px;
+  color: #444442;
+  background-image: url("https://catherineasquithgallery.com/uploads/posts/2023-01/1674521183_catherineasquithgallery-com-p-foni-dlya-fotoalboma-korichnevie-114.jpg"); 
+  background-size: 900px;
+}
+
+#demotext {
+color: #FFFFFF;
+background: #333333;
+text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00;
+color: #FFFFFF;
+background: #847462;
+font-size:50px;
+text-align: center;
+}
+
+h1 {
+  width: 255px;
+  margin: 0 auto 8px;
+  font-family: "Georgia", serif;
+  text-align: center;
+  font-weight: normal;
+  font-size: 56px;
+  line-height: 64px;
+}
+
+h2 {
+  border-bottom: 2px solid #cccccc;
+  padding-bottom: 24px;
+  color: #000000
+}
+
+.container {
+  
+  width: 510px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.site-header {
+  min-width: 550px;
+  height: 186px;
+  margin-bottom: 70px;
+  padding-top: 30px;
+  background: #847462 no-repeat center url("img/gloevk-bg.jpg");
+  background-size: cover;
+  color: #ffffff;
+}
+
+.site-header p {
+  width: 255px;
+  margin: 0 auto 26px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 24px; 
+}
+
+.site-header img {
+  display: block;
+  margin: 0 auto;
+}
+
+.features {
+  width: 510px;
+  margin: 0 auto 30px;
+  padding: 0 20px;
+}
+
+.features p {
+  display: inline-block;
+  vertical-align: top;
+  width: 30%;
+  margin: 0 5px;
+  background-repeat: no-repeat;
+  background-position: center top;
+  text-align: center;
+}
+
+.feature-furniture {
+  padding-top: 65px;
+  background-image: url("img/Shapka");
+}
+
+.feature-lighting {
+  padding-top: 65px;
+  background-image: url("img/lighting.svg");
+}
+
+.feature-accessories {
+  padding-top: 65px;
+  background-image: url("img/accessories.svg");
+}
+
+.advantages {
+  width: 510px;
+  margin: 0 auto 40px;
+  padding: 0 20px;
+}
+
+.advantages-list {
+  padding: 0;
+  list-style: none;  
+}
+
+.advantages-item {
+  margin-bottom: 15px;
+  padding-left: 20px;
+  border-left: 20px solid #e2e2e2;
+  color: #999999;
+}
+
+.standard {
+  border-color: #847462;
+  color: #6a6a6a;
+}
+
+/* Добавьте правило для класса vip сюда */
+.vip {
+  border-color: #ffb864;
+  color: #000000;
+}
+
+
+.site-footer {
+  min-width: 550px;
+  background-color: #847462;
+  color: #ffffff;
+}
+
+.site-footer .container {
+  text-align: center;
+}
+
+.site-footer p {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0 20px;
+}
+.imgblock {
+    position: relative;
+    display: inline-block;
+}
+
+.imgblock img {
+    height: 200px;
+    width: 1220px;
+}
+.imgblock span {
+    /*background: rgba(0,0,0,0.7); (полупрозрачность)*/
+    background: #222;
+    color: #fff;
+    border-radius: 2px;
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+    font-size: 18px;
+    padding: 3px 5px;
+}
+
+
