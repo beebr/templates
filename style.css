@@ -16,6 +16,10 @@ body {
 	height: 50px;
 }
 
+#elem {
+	text-shadow: 5px 5px 3px black;
+}
+
 #demotext {
 color: #FFFFFF;
 background: #333333;
